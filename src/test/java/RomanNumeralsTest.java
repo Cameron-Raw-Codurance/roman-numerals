@@ -13,4 +13,9 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("II", romanNumerals.convert(2));
     }
+    @Test
+    void ReturnsIIIWhenPassed3(){
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("III", romanNumerals.convert(3));
+    }
 }
